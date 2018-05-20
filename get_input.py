@@ -8,6 +8,8 @@ def get_input():
         "dst_env": input("Key in dst env: ")+"_",
         "dst_location": input("Key in dst location: ")+"-",
         "dst_function": input("Key in dst function: "),
+        "port": input("Key in port: "),
+        "application": input("Key in application: "),
     }
     if my_input["src_function"]:
         my_input["src_function"] += "-"
